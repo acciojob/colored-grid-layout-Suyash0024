@@ -6,61 +6,11 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
- <style>
-    body {
-      margin: 0;
-      padding: 0;
-      
-      color: white;
-    
-    }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5, 20vh);
-      gap: 5px;
-      padding: 5px;
-    }
-
-    .grid-item {
-      background-color: green;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 4vw;
-    }
-
-    .green {
-      background-color: green;
-    }
-
-    
-    .item1 {
-      grid-column: 1 / span 4;
-    }
-
-    .item2 {
-      grid-row: 2 / span 4;
-    }
-
-    .item4 {
-      grid-column: span 2;
-    }
-
-    .item5 {
-      grid-column: span 2;
-    }
-
-    .item10 {
-      grid-column: span 3;
-    }
-
-  </style>
 </head>
 <body>
 
-  <div class="grid-container">
+  <div id="grid">
     <div class="grid-item green item1">1</div>
     <div class="grid-item green item2">2</div>
     <div class="grid-item">3</div>
